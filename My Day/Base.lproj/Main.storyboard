@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--ghhgh-->
+        <!--View Controller-->
         <scene sceneID="Gr5-y7-jaS">
             <objects>
                 <viewController id="tee-l5-hW4" sceneMemberID="viewController">
@@ -18,7 +18,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="wzu-1x-IhX"/>
                     </view>
-                    <navigationItem key="navigationItem" title="ghhgh" id="feY-QA-yko">
+                    <navigationItem key="navigationItem" id="feY-QA-yko">
                         <barButtonItem key="backBarButtonItem" title="Back" id="zIH-90-OI2"/>
                     </navigationItem>
                     <connections>
@@ -289,7 +289,7 @@
             </objects>
             <point key="canvasLocation" x="-557.97101449275362" y="-360.26785714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--log in -->
         <scene sceneID="5Bs-tQ-R8Z">
             <objects>
                 <viewController id="djM-gd-NEZ" sceneMemberID="viewController">
@@ -325,7 +325,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="7gf-8F-MSt"/>
                     </view>
-                    <navigationItem key="navigationItem" id="hGV-bl-Oe9" userLabel="log in"/>
+                    <navigationItem key="navigationItem" title="log in " id="hGV-bl-Oe9" userLabel="log in"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rg6-Cp-T80" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -474,7 +474,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QE7-BB-k3c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7186.9565217391309" y="-33.482142857142854"/>
+            <point key="canvasLocation" x="8097.1014492753629" y="-33.482142857142854"/>
         </scene>
         <!--Monthy View by Calender-->
         <scene sceneID="FCR-vK-uML">
@@ -509,7 +509,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Bld-ej-JQa" kind="relationship" relationship="rootViewController" id="jhN-vn-Jlz"/>
+                        <segue destination="N8j-X7-mgi" kind="relationship" relationship="rootViewController" id="jhN-vn-Jlz"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WPS-wv-lOd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -575,9 +575,28 @@
             </objects>
             <point key="canvasLocation" x="-1468.1159420289857" y="-360.26785714285711"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="AMf-xk-Jp8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="N8j-X7-mgi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="rQY-dn-jCz"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Iac-kl-C7Y">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Bld-ej-JQa" kind="relationship" relationship="rootViewController" id="v4F-XU-dWC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N5M-Md-xEW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7186.9565217391309" y="-33.482142857142854"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="mJv-bp-OeU"/>
+        <segue reference="ehQ-kV-5vA"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Home" width="750" height="1390"/>
