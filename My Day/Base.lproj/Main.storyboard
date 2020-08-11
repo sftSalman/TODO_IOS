@@ -299,7 +299,7 @@
         <!--Home-->
         <scene sceneID="9VR-lj-vfS">
             <objects>
-                <viewController id="Zfz-nj-ZSB" sceneMemberID="viewController">
+                <viewController id="Zfz-nj-ZSB" customClass="SignUpViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gss-vZ-Ddm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -389,10 +389,10 @@
             </objects>
             <point key="canvasLocation" x="2628.985507246377" y="-966.29464285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="cWs-Lf-fdf">
             <objects>
-                <viewController id="Iph-6u-3SY" sceneMemberID="viewController">
+                <viewController id="Iph-6u-3SY" customClass="SignUpViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dAg-2w-ecf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
