@@ -7,14 +7,28 @@
 //
 
 import UIKit
+import Firebase
 
 class SignUpViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    @IBOutlet weak var EmalTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+  
 
+    @IBAction func signUpButtonPressed(_ sender: UIButton) {
+        print("Sign button pressed")
+
+        if let email = EmalTextField.text,let password = passwordTextField.text{
+                Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
         
-    }
-    
+                    if let e =  error{
+                        print(e)
+                    }else {
+                        self.performSegue(withIdentifier:"signUpToTab" , sender: self)
+                    }
+        
+                }
+                }
+        }
+  }
 
-}
