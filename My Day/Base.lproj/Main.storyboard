@@ -299,7 +299,7 @@
         <!--Home-->
         <scene sceneID="9VR-lj-vfS">
             <objects>
-                <viewController id="Zfz-nj-ZSB" customClass="SignUpViewController" sceneMemberID="viewController">
+                <viewController id="Zfz-nj-ZSB" customClass="MainViewController" customModule="My_Day" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gss-vZ-Ddm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -350,7 +350,7 @@
         <!--log in -->
         <scene sceneID="5Bs-tQ-R8Z">
             <objects>
-                <viewController id="djM-gd-NEZ" sceneMemberID="viewController">
+                <viewController id="djM-gd-NEZ" customClass="LogInViewController" customModule="My_Day" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b6w-yN-DpL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

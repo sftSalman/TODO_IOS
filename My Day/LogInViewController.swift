@@ -1,5 +1,5 @@
 //
-//  SignUpViewController.swift
+//  LogInViewController.swift
 //  My Day
 //
 //  Created by Salman Farshi on 12/8/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SignUpViewController: UIViewController {
+class LogInViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

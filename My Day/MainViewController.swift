@@ -1,5 +1,5 @@
 //
-//  SignUpViewController.swift
+//  MainViewController.swift
 //  My Day
 //
 //  Created by Salman Farshi on 12/8/20.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class SignUpViewController: UIViewController {
+class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
-    }
     
-
+    }
 }
