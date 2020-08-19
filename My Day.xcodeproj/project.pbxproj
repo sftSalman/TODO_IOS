@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2853AE6A24EC2F3700E1F433 /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2853AE6824EC2F3600E1F433 /* MainCollectionViewController.swift */; };
+		2853AE6B24EC2F3700E1F433 /* MainCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2853AE6924EC2F3700E1F433 /* MainCollectionViewController.xib */; };
+		2853AE6E24EC30DB00E1F433 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2853AE6C24EC30DB00E1F433 /* MyCollectionViewCell.swift */; };
+		2853AE6F24EC30DB00E1F433 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2853AE6D24EC30DB00E1F433 /* MyCollectionViewCell.xib */; };
 		2873AE1E24E317E3007572E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2873AE1D24E317E3007572E9 /* GoogleService-Info.plist */; };
 		28AD703824E3A4AA00D6F5FC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD703724E3A4AA00D6F5FC /* MainViewController.swift */; };
 		28AD703C24E3A95400D6F5FC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD703B24E3A95400D6F5FC /* SignUpViewController.swift */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2853AE6824EC2F3600E1F433 /* MainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
+		2853AE6924EC2F3700E1F433 /* MainCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainCollectionViewController.xib; sourceTree = "<group>"; };
+		2853AE6C24EC30DB00E1F433 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		2853AE6D24EC30DB00E1F433 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 		2873AE1D24E317E3007572E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		28AD703724E3A4AA00D6F5FC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		28AD703B24E3A95400D6F5FC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +95,10 @@
 				28AD703724E3A4AA00D6F5FC /* MainViewController.swift */,
 				28AD703B24E3A95400D6F5FC /* SignUpViewController.swift */,
 				28AD703D24E3A9DE00D6F5FC /* LogInViewController.swift */,
+				2853AE6824EC2F3600E1F433 /* MainCollectionViewController.swift */,
+				2853AE6924EC2F3700E1F433 /* MainCollectionViewController.xib */,
+				2853AE6C24EC30DB00E1F433 /* MyCollectionViewCell.swift */,
+				2853AE6D24EC30DB00E1F433 /* MyCollectionViewCell.xib */,
 			);
 			path = "My Day";
 			sourceTree = "<group>";
@@ -162,6 +174,8 @@
 			files = (
 				28FA0C2B24CD1EFE00E43392 /* LaunchScreen.storyboard in Resources */,
 				2873AE1E24E317E3007572E9 /* GoogleService-Info.plist in Resources */,
+				2853AE6F24EC30DB00E1F433 /* MyCollectionViewCell.xib in Resources */,
+				2853AE6B24EC2F3700E1F433 /* MainCollectionViewController.xib in Resources */,
 				28FA0C2824CD1EFE00E43392 /* Assets.xcassets in Resources */,
 				28FA0C2624CD1EFC00E43392 /* Main.storyboard in Resources */,
 			);
@@ -217,6 +231,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				28FA0C1F24CD1EFC00E43392 /* AppDelegate.swift in Sources */,
+				2853AE6E24EC30DB00E1F433 /* MyCollectionViewCell.swift in Sources */,
+				2853AE6A24EC2F3700E1F433 /* MainCollectionViewController.swift in Sources */,
 				28FA0C2124CD1EFC00E43392 /* SceneDelegate.swift in Sources */,
 				28AD703C24E3A95400D6F5FC /* SignUpViewController.swift in Sources */,
 				28AD703E24E3A9DE00D6F5FC /* LogInViewController.swift in Sources */,
