@@ -10,7 +10,7 @@ import UIKit
 
 class MainTableViewController: UITableViewController {
     var textF = UITextField()
-    var taskArray = ["task 1","task 2","task 3","task 4","task 5","task 6","task 7","task 8","task 9"]
+    var taskArray = [""]
     let cellSpacingHeight: CGFloat = 10
     
     override func viewDidLoad() {
@@ -25,8 +25,18 @@ class MainTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell", for: indexPath)
-        cell.textLabel?.text =  taskArray[indexPath.row]
+        //cell.textLabel?.text =  taskArray[indexPath.row]
        // taskArray.append(textF.text!)
+        let contact = taskArray[indexPath.row]
+        //cell.textLabel?.text = c
+          // cell.yourTimeLabel?.text = (contact.value(forKey:"keyforDate") as? Date).getTimeStamp()
+        let date = Date()
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MM/dd/yyyy"
+        let stringDate = formatter.string(from: date)
+        cell.textLabel?.text = stringDate + contact
+        
+        
         
               // add border and color
       //  let color = UIColor(red: 0xF8, green: 0x7C, blue: 0x18)
@@ -34,10 +44,15 @@ class MainTableViewController: UITableViewController {
               cell.backgroundColor = color2
              // cell.layer.borderColor = color2
         cell.layer.borderWidth = 0.1
-              cell.layer.cornerRadius = 0
+        cell.layer.cornerRadius = 0
+        
+      let imageView: UIImageView = UIImageView(frame:CGRect(x: 0, y: 0, width: 30, height: 30))
+      imageView.image = UIImage(named: "note 2")
+      imageView.contentMode = .scaleAspectFit
+      cell.accessoryView = imageView
         
 //
-//              cell.clipsToBounds = true
+//       cell.clipsToBounds = true
         cell.textLabel?.font = UIFont.systemFont(ofSize: 25.0)
         cell.textLabel?.textAlignment = NSTextAlignment.center
         return cell
@@ -116,3 +131,18 @@ extension UIColor {
        )
    }
 }
+//extension Date {
+//    func getFormattedDate(format: String) -> String {
+//        let dateFormatter = DateFormatter()
+//        dateFormatter.dateFormat = format
+//        let strDate = dateFormatter.string(from: self)
+//        return strDate
+//    }
+//
+//    func getTimeStamp() -> String {
+//        let dateFormatter = DateFormatter()
+//        dateFormatter.dateFormat = "hh:mm a"
+//        let dateString = dateFormatter.string(from: self)
+//        return dateString
+//    }
+//}
