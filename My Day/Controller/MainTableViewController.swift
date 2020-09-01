@@ -9,17 +9,20 @@
 import UIKit
 
 class MainTableViewController: UITableViewController {
+    var  resultItem = 0
     var textF = UITextField()
-    var taskArray = [""]
+    var taskArray = ["Study","Study","Study","Study","Study","Study"]
     let cellSpacingHeight: CGFloat = 10
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.rowHeight = 100.0
-      print(taskArray)
+       
+      
     
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        resultItem = taskArray.count
         return taskArray.count
     }
     
@@ -34,7 +37,7 @@ class MainTableViewController: UITableViewController {
         let formatter = DateFormatter()
         formatter.dateFormat = "MM/dd/yyyy"
         let stringDate = formatter.string(from: date)
-        cell.textLabel?.text = stringDate + contact
+        cell.textLabel?.text = contact
         
         
         
@@ -59,6 +62,26 @@ class MainTableViewController: UITableViewController {
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        
+        
+        let ItemVc = storyboard?.instantiateViewController(identifier: "Item") as! ItemTableViewController
+        ItemVc.title = taskArray[indexPath.row]
+        ItemVc.itemArray = taskArray
+        
+        navigationController?.pushViewController(ItemVc, animated: true)
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     }
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
 
