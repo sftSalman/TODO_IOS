@@ -41,6 +41,7 @@ class MainTableViewController: UITableViewController {
         
         
         
+        
               // add border and color
       //  let color = UIColor(red: 0xF8, green: 0x7C, blue: 0x18)
         let color2 = UIColor(rgb: 0xfffcf7 )
@@ -67,7 +68,7 @@ class MainTableViewController: UITableViewController {
         
         let ItemVc = storyboard?.instantiateViewController(identifier: "Item") as! ItemTableViewController
         ItemVc.title = taskArray[indexPath.row]
-        ItemVc.itemArray = taskArray
+     //   ItemVc.itemArray = taskArray
         
         navigationController?.pushViewController(ItemVc, animated: true)
         

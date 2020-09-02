@@ -10,8 +10,10 @@ import Firebase
 
 class ItemTableViewController: UITableViewController {
 
-    var itemArray = [""]
-    var textF = UITextField()
+    var itemArray = [String]()
+    var textField = UITextField()
+    var  done = 1.0
+    var notDone = 1.0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,14 +24,35 @@ class ItemTableViewController: UITableViewController {
         return itemArray.count
     }
 
-//    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cellItem = tableView.dequeueReusableCell(withIdentifier: "ItemCell", for: indexPath)
-//        cellItem.textLabel?.text = itemArray[indexPath.row]
-//        return cellItem
-//    }
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cellItem = tableView.dequeueReusableCell(withIdentifier: "ItemCell", for: indexPath)
+        cellItem.textLabel?.text = itemArray[indexPath.row]
+        return cellItem
+    }
 
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+       
+        
+              if let cell = tableView.cellForRow(at: indexPath) {
+                  if cell.accessoryType == .checkmark
+                 {
+                  cell.accessoryType = .none
+                    notDone = notDone + 1.0
+                    print(notDone)
+                 }
+                 else
+                 {
+                  cell.accessoryType = .checkmark
+                    done = done + 1.0
+                    print(done)
+                 }
+             }
+          
+
+        
+        
         tableView.deselectRow(at: indexPath, animated: true)
     }
 
@@ -43,17 +66,19 @@ class ItemTableViewController: UITableViewController {
 
 
           let saveAction = UIAlertAction(title: "Save", style: .default, handler: { alert -> Void in
-           self.itemArray.append(self.textF.text!)
+            
+           self.itemArray.append(self.textField.text!)
            self.tableView.reloadData()
 
-          })
+          }
+        )
 
           let cancelAction = UIAlertAction(title: "Cancel", style: .default, handler: nil )
 
           alertController.addTextField { (alerTextField : UITextField!) -> Void in
 
            alerTextField.placeholder = "Enter New Items"
-           self.textF = alerTextField
+           self.textField = alerTextField
           }
 
           alertController.addAction(saveAction)
@@ -62,5 +87,5 @@ class ItemTableViewController: UITableViewController {
           self.present(alertController, animated: true, completion: nil)
 
     }
-
+    
 }

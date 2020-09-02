@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ResultTableViewController: MainTableViewController {
+class ResultTableViewController: ItemTableViewController {
     
 
     override func viewDidLoad() {
@@ -30,14 +30,16 @@ class ResultTableViewController: MainTableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 3
+        return 1
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "resultCell", for: indexPath)
-
-        cell.textLabel?.text = taskArray[2]
+        var show = notDone / done
+        cell.textLabel?.text =  String(show)
+        //tableView.reloadData()
+       
         print(10)
 
         return cell

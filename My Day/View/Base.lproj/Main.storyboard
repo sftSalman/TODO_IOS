@@ -7,35 +7,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Show Day-->
-        <scene sceneID="7LM-oH-kUk">
-            <objects>
-                <tableViewController id="Fqi-7i-GN3" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="DgP-yH-T8u">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="resultCell" id="r3Z-8e-RY9">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="r3Z-8e-RY9" id="mKp-2S-3ie">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="Fqi-7i-GN3" id="xrR-zt-pTt"/>
-                            <outlet property="delegate" destination="Fqi-7i-GN3" id="STc-0K-G3c"/>
-                        </connections>
-                    </tableView>
-                    <tabBarItem key="tabBarItem" title="Show Day" id="Llj-Oy-6DH"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RGX-0z-ei3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6026" y="419"/>
-        </scene>
         <!--Tab Bar View Controller-->
         <scene sceneID="Kn4-Gl-Iz3">
             <objects>
@@ -55,7 +26,7 @@
                     <connections>
                         <segue destination="meS-rb-XyZ" kind="relationship" relationship="viewControllers" id="hmT-0Z-nEW"/>
                         <segue destination="oG6-ny-qRO" kind="relationship" relationship="viewControllers" id="Jy8-1Z-dvx"/>
-                        <segue destination="Fqi-7i-GN3" kind="relationship" relationship="viewControllers" id="J4n-3M-h4H"/>
+                        <segue destination="fgV-NU-0I2" kind="relationship" relationship="viewControllers" id="nIT-Y9-aUZ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T3h-ad-kCd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -412,7 +383,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableViewCell" id="YpA-eh-xgC">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="TableViewCell" id="YpA-eh-xgC">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YpA-eh-xgC" id="mEH-Pm-jF0">
@@ -450,7 +421,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="102" id="eUV-ZM-Ksx">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="102" id="eUV-ZM-Ksx">
                                 <rect key="frame" x="0.0" y="28" width="414" height="102"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eUV-ZM-Ksx" id="H8U-Cz-J5e">
@@ -514,6 +485,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Ps-Mh-z5U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4950.7246376811599" y="-523.66071428571422"/>
+        </scene>
+        <!--Show Day-->
+        <scene sceneID="tya-aH-NJC">
+            <objects>
+                <viewController id="fgV-NU-0I2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r71-pT-jgm" customClass="PieChart" customModule="My_Day" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="r3h-ei-IsL"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Show Day" id="OQZ-hX-RGL"/>
+                    <connections>
+                        <outlet property="chartView" destination="r71-pT-jgm" id="jkO-ZF-y1A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aQS-Mx-myO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5273" y="346"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="QMs-PI-6rm">

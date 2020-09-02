@@ -14,7 +14,6 @@
 		2873AE1E24E317E3007572E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2873AE1D24E317E3007572E9 /* GoogleService-Info.plist */; };
 		2875857A24F628A000AF9628 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875857924F628A000AF9628 /* NoteViewController.swift */; };
 		2875857C24F628DD00AF9628 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875857B24F628DD00AF9628 /* EntryViewController.swift */; };
-		2875858424F62D7300AF9628 /* NewMainNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875858324F62D7300AF9628 /* NewMainNoteViewController.swift */; };
 		2875858624F62DE800AF9628 /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875858524F62DE800AF9628 /* NoteTableViewController.swift */; };
 		28AD703C24E3A95400D6F5FC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD703B24E3A95400D6F5FC /* SignUpViewController.swift */; };
 		28AD703E24E3A9DE00D6F5FC /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD703D24E3A9DE00D6F5FC /* LogInViewController.swift */; };
@@ -34,7 +33,6 @@
 		2873AE1D24E317E3007572E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2875857924F628A000AF9628 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		2875857B24F628DD00AF9628 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
-		2875858324F62D7300AF9628 /* NewMainNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMainNoteViewController.swift; sourceTree = "<group>"; };
 		2875858524F62DE800AF9628 /* NoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
 		28AD703B24E3A95400D6F5FC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		28AD703D24E3A9DE00D6F5FC /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
@@ -88,7 +86,6 @@
 				2867800824F8086000AE83D4 /* MainTableViewController.swift */,
 				28AD703B24E3A95400D6F5FC /* SignUpViewController.swift */,
 				28AD703D24E3A9DE00D6F5FC /* LogInViewController.swift */,
-				2875858324F62D7300AF9628 /* NewMainNoteViewController.swift */,
 				2864AA8624FC1EE9001CD1BC /* TabBarViewController.swift */,
 				284682EC24FCCBDB00618451 /* ItemTableViewController.swift */,
 			);
@@ -272,7 +269,6 @@
 				28AD703E24E3A9DE00D6F5FC /* LogInViewController.swift in Sources */,
 				2875857C24F628DD00AF9628 /* EntryViewController.swift in Sources */,
 				284682ED24FCCBDB00618451 /* ItemTableViewController.swift in Sources */,
-				2875858424F62D7300AF9628 /* NewMainNoteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
