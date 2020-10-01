@@ -1,16 +1,19 @@
 //
-//  SignUpViewController.swift
+//  RegistrationViewController.swift
 //  My Day
 //
-//  Created by Salman Farshi on 12/8/20.
+//  Created by Salman Farshi on 20/9/20.
 //  Copyright © 2020 Salman Farshi. All rights reserved.
 //
+
 
 import UIKit
 import Firebase
 
-class SignUpViewController: UIViewController {
-
+class RegistrationViewController: UIViewController {
+    override func viewDidLoad() {
+        title = "My Day"
+    }
     @IBOutlet weak var EmalTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
   

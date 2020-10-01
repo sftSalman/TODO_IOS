@@ -15,10 +15,16 @@ class ItemTableViewController: UITableViewController {
     var textField = UITextField()
     var  done = 1.0
     var notDone = 1.0
+    override func viewWillAppear(_ animated: Bool) {
+        tableView.reloadData()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.rowHeight = 100.0
+        tableView.reloadData()
+        tableView.rowHeight = 50.0
+        self.tableView.separatorStyle = UITableViewCell.SeparatorStyle.none
+        
     }
 
      override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -46,8 +52,10 @@ class ItemTableViewController: UITableViewController {
           imageView.image = UIImage(named: "note 2")
          imageView.contentMode = .scaleAspectFit
         //cellItem.accessoryView = imageView
-        cellItem.textLabel?.font = UIFont.systemFont(ofSize: 18.0)
+       // cellItem.textLabel?.font = UIFont.systemFont(ofSize: 18.0)
         cellItem.textLabel?.textAlignment = NSTextAlignment.center
+        cellItem.textLabel?.font = UIFont.boldSystemFont(ofSize: 22.0)
+        cellItem.textLabel?.textColor = .brown
        
         
         return cellItem
@@ -64,6 +72,7 @@ class ItemTableViewController: UITableViewController {
                   cell.accessoryType = .none
                     notDone = notDone + 1.0
                     print(notDone)
+                     print(notDone)
                  }
                  else
                  {

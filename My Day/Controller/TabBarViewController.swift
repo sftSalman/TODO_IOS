@@ -13,7 +13,8 @@ class TabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "MY DAY"
+        title = ""
+        
         self.navigationItem.setHidesBackButton(true, animated: true)
 
        

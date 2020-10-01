@@ -16,7 +16,10 @@ class MainTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.rowHeight = 100.0
+        tableView.rowHeight = 70.0
+        self.navigationController!.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "Helvetica Neue", size: 30)!]
+//      
+        tableView.separatorColor = UIColor.orange
         
         
         
@@ -28,37 +31,24 @@ class MainTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell", for: indexPath)
-        //cell.textLabel?.text =  taskArray[indexPath.row]
-        // taskArray.append(textF.text!)
+       
         let contact = taskArray[indexPath.row]
-        //cell.textLabel?.text = c
-        // cell.yourTimeLabel?.text = (contact.value(forKey:"keyforDate") as? Date).getTimeStamp()
-        let date = Date()
-        let formatter = DateFormatter()
-        formatter.dateFormat = "MM/dd/yyyy"
-        let stringDate = formatter.string(from: date)
+       
         cell.textLabel?.text = contact
         
         
         
         
-        // add border and color
-        //  let color = UIColor(red: 0xF8, green: 0x7C, blue: 0x18)
-        let color2 = UIColor(rgb: 0xfffcf7 )
-        cell.backgroundColor = color2
-        // cell.layer.borderColor = color2
-        cell.layer.borderWidth = 0.1
-        cell.layer.cornerRadius = 0
         
         let imageView: UIImageView = UIImageView(frame:CGRect(x: 0, y: 0, width: 30, height: 30))
         imageView.image = UIImage(named: "note 2")
         imageView.contentMode = .scaleAspectFit
         cell.accessoryView = imageView
         
-        //
-        //       cell.clipsToBounds = true
-        cell.textLabel?.font = UIFont.systemFont(ofSize: 18.0)
+      
         cell.textLabel?.textAlignment = NSTextAlignment.center
+        cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 18.0)
+        cell.textLabel?.textColor = .brown
         return cell
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -86,16 +76,16 @@ class MainTableViewController: UITableViewController {
             // Not used in our example, but if you were adding a new row, this is where you would do it.
         }
     }
-    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return cellSpacingHeight
-    }
-    // Make the background color show through
-    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let headerView = UIView()
-        headerView.backgroundColor = UIColor.clear
-        return headerView
-    }
-    
+//    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+//        return cellSpacingHeight
+//    }
+//    // Make the background color show through
+//    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+//        let headerView = UIView()
+//        headerView.backgroundColor = UIColor.clear
+//        return headerView
+//    }
+//
     
     @IBAction func AddItemPressed(_ sender: UIBarButtonItem) {
         let alertController = UIAlertController(title: "Add New Items", message: "", preferredStyle: .alert)

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		284682ED24FCCBDB00618451 /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284682EC24FCCBDB00618451 /* ItemTableViewController.swift */; };
+		2847780025173828005AB040 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284777FF25173828005AB040 /* CalendarViewController.swift */; };
+		2847780525174C8E005AB040 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2847780425174C8E005AB040 /* WelcomeViewController.swift */; };
+		2847780825175E01005AB040 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2847780725175E01005AB040 /* RegistrationViewController.swift */; };
+		2848CC8825163FC600D9F09C /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2848CC8725163FC600D9F09C /* ChartViewController.swift */; };
 		2864AA8724FC1EE9001CD1BC /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2864AA8624FC1EE9001CD1BC /* TabBarViewController.swift */; };
 		2867800924F8086000AE83D4 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2867800824F8086000AE83D4 /* MainTableViewController.swift */; };
 		2867801324F81FF300AE83D4 /* ResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2867801224F81FF300AE83D4 /* ResultTableViewController.swift */; };
@@ -15,8 +19,9 @@
 		2875857A24F628A000AF9628 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875857924F628A000AF9628 /* NoteViewController.swift */; };
 		2875857C24F628DD00AF9628 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875857B24F628DD00AF9628 /* EntryViewController.swift */; };
 		2875858624F62DE800AF9628 /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875858524F62DE800AF9628 /* NoteTableViewController.swift */; };
-		28AD703C24E3A95400D6F5FC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD703B24E3A95400D6F5FC /* SignUpViewController.swift */; };
 		28AD703E24E3A9DE00D6F5FC /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD703D24E3A9DE00D6F5FC /* LogInViewController.swift */; };
+		28DC86652511F20A00CA92FF /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC86642511F20A00CA92FF /* TimerViewController.swift */; };
+		28E769F6252593F500F00FE6 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E769F5252593F500F00FE6 /* File.swift */; };
 		28FA0C1F24CD1EFC00E43392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA0C1E24CD1EFC00E43392 /* AppDelegate.swift */; };
 		28FA0C2124CD1EFC00E43392 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA0C2024CD1EFC00E43392 /* SceneDelegate.swift */; };
 		28FA0C2624CD1EFC00E43392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FA0C2424CD1EFC00E43392 /* Main.storyboard */; };
@@ -27,6 +32,10 @@
 
 /* Begin PBXFileReference section */
 		284682EC24FCCBDB00618451 /* ItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
+		284777FF25173828005AB040 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		2847780425174C8E005AB040 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		2847780725175E01005AB040 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		2848CC8725163FC600D9F09C /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 		2864AA8624FC1EE9001CD1BC /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		2867800824F8086000AE83D4 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		2867801224F81FF300AE83D4 /* ResultTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultTableViewController.swift; path = "My Day/View/ResultTableViewController.swift"; sourceTree = SOURCE_ROOT; };
@@ -34,8 +43,9 @@
 		2875857924F628A000AF9628 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		2875857B24F628DD00AF9628 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		2875858524F62DE800AF9628 /* NoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
-		28AD703B24E3A95400D6F5FC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		28AD703D24E3A9DE00D6F5FC /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		28DC86642511F20A00CA92FF /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		28E769F5252593F500F00FE6 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		28FA0C1B24CD1EFC00E43392 /* My Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FA0C1E24CD1EFC00E43392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28FA0C2024CD1EFC00E43392 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				28FA0C2424CD1EFC00E43392 /* Main.storyboard */,
+				2847780425174C8E005AB040 /* WelcomeViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -80,14 +91,18 @@
 			isa = PBXGroup;
 			children = (
 				2867801224F81FF300AE83D4 /* ResultTableViewController.swift */,
+				2848CC8725163FC600D9F09C /* ChartViewController.swift */,
+				28DC86642511F20A00CA92FF /* TimerViewController.swift */,
+				28E769F5252593F500F00FE6 /* File.swift */,
 				2875857924F628A000AF9628 /* NoteViewController.swift */,
 				2875857B24F628DD00AF9628 /* EntryViewController.swift */,
 				2875858524F62DE800AF9628 /* NoteTableViewController.swift */,
 				2867800824F8086000AE83D4 /* MainTableViewController.swift */,
-				28AD703B24E3A95400D6F5FC /* SignUpViewController.swift */,
 				28AD703D24E3A9DE00D6F5FC /* LogInViewController.swift */,
 				2864AA8624FC1EE9001CD1BC /* TabBarViewController.swift */,
 				284682EC24FCCBDB00618451 /* ItemTableViewController.swift */,
+				284777FF25173828005AB040 /* CalendarViewController.swift */,
+				2847780725175E01005AB040 /* RegistrationViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -262,12 +277,17 @@
 				28FA0C1F24CD1EFC00E43392 /* AppDelegate.swift in Sources */,
 				2864AA8724FC1EE9001CD1BC /* TabBarViewController.swift in Sources */,
 				2867801324F81FF300AE83D4 /* ResultTableViewController.swift in Sources */,
+				2848CC8825163FC600D9F09C /* ChartViewController.swift in Sources */,
+				28E769F6252593F500F00FE6 /* File.swift in Sources */,
+				28DC86652511F20A00CA92FF /* TimerViewController.swift in Sources */,
+				2847780525174C8E005AB040 /* WelcomeViewController.swift in Sources */,
 				28FA0C2124CD1EFC00E43392 /* SceneDelegate.swift in Sources */,
 				2875858624F62DE800AF9628 /* NoteTableViewController.swift in Sources */,
+				2847780825175E01005AB040 /* RegistrationViewController.swift in Sources */,
 				2867800924F8086000AE83D4 /* MainTableViewController.swift in Sources */,
-				28AD703C24E3A95400D6F5FC /* SignUpViewController.swift in Sources */,
 				28AD703E24E3A9DE00D6F5FC /* LogInViewController.swift in Sources */,
 				2875857C24F628DD00AF9628 /* EntryViewController.swift in Sources */,
+				2847780025173828005AB040 /* CalendarViewController.swift in Sources */,
 				284682ED24FCCBDB00618451 /* ItemTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
