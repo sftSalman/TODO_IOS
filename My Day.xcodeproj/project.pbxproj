@@ -21,7 +21,6 @@
 		2875858624F62DE800AF9628 /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875858524F62DE800AF9628 /* NoteTableViewController.swift */; };
 		28AD703E24E3A9DE00D6F5FC /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD703D24E3A9DE00D6F5FC /* LogInViewController.swift */; };
 		28DC86652511F20A00CA92FF /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC86642511F20A00CA92FF /* TimerViewController.swift */; };
-		28E769F6252593F500F00FE6 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E769F5252593F500F00FE6 /* File.swift */; };
 		28FA0C1F24CD1EFC00E43392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA0C1E24CD1EFC00E43392 /* AppDelegate.swift */; };
 		28FA0C2124CD1EFC00E43392 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA0C2024CD1EFC00E43392 /* SceneDelegate.swift */; };
 		28FA0C2624CD1EFC00E43392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FA0C2424CD1EFC00E43392 /* Main.storyboard */; };
@@ -45,7 +44,6 @@
 		2875858524F62DE800AF9628 /* NoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
 		28AD703D24E3A9DE00D6F5FC /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		28DC86642511F20A00CA92FF /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
-		28E769F5252593F500F00FE6 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		28FA0C1B24CD1EFC00E43392 /* My Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FA0C1E24CD1EFC00E43392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28FA0C2024CD1EFC00E43392 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 				2867801224F81FF300AE83D4 /* ResultTableViewController.swift */,
 				2848CC8725163FC600D9F09C /* ChartViewController.swift */,
 				28DC86642511F20A00CA92FF /* TimerViewController.swift */,
-				28E769F5252593F500F00FE6 /* File.swift */,
 				2875857924F628A000AF9628 /* NoteViewController.swift */,
 				2875857B24F628DD00AF9628 /* EntryViewController.swift */,
 				2875858524F62DE800AF9628 /* NoteTableViewController.swift */,
@@ -278,7 +275,6 @@
 				2864AA8724FC1EE9001CD1BC /* TabBarViewController.swift in Sources */,
 				2867801324F81FF300AE83D4 /* ResultTableViewController.swift in Sources */,
 				2848CC8825163FC600D9F09C /* ChartViewController.swift in Sources */,
-				28E769F6252593F500F00FE6 /* File.swift in Sources */,
 				28DC86652511F20A00CA92FF /* TimerViewController.swift in Sources */,
 				2847780525174C8E005AB040 /* WelcomeViewController.swift in Sources */,
 				28FA0C2124CD1EFC00E43392 /* SceneDelegate.swift in Sources */,
