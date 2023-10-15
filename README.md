@@ -1,4 +1,4 @@
-## Activity Organizer and Analyzer Welcome to the Activity Organizer and Analyzer GitHub repository!
+# # Activity Organizer and Analyzer Welcome to the Activity Organizer and Analyzer GitHub repository 
 
 # Overview
 Do you often find it challenging to manage your daily activities and prioritize your tasks effectively? Our Activity Organizer and Analyzer is here to help you streamline your daily routine. This app serves as a versatile tool for setting, organizing, and analyzing your tasks, ensuring that you make the most of your time.
